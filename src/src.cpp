@@ -31,7 +31,7 @@ int main() {
     utils::openCL::CLInfo info{device, context, program};
     mandelBrotSet(info, data.data(), width, height);
     savePNG("mandel_brot_set.png", data.data(), width, height);
-    std::cin.get();
+    //std::cin.get();
     return 0;
 }
 
