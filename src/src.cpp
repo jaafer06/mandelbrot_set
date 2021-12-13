@@ -7,7 +7,7 @@
 #include <string>
 #include "utils/openCL.hpp"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "utils/stb_image_write.h"
+#include "stb_image_write.h"
 
 void mandelBrotSet(utils::openCL::CLInfo& info, unsigned char* data, unsigned int width, unsigned int height);
 
