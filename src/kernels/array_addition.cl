@@ -15,8 +15,8 @@
 
    unsigned char iteration = 0;
    float absValue = 0;
-   float x0 = i*0.002;
-   float y0 = j*0.002;
+   float x0 = i*0.0004 - 2;
+   float y0 = j*0.0004 - 1;
    float x = 0;
    float y = 0;
    float MAX_VALUE = 4;

@@ -19,8 +19,8 @@ int main() {
     auto device = utils::openCL::getDefaultDevice();
     auto [program, context] = utils::openCL::readKernelFile("../src/kernels/array_addition.cl", device);
     utils::openCL::CLInfo clInfo{ device, context, program };
-    constexpr int width = 500;
-    constexpr int height = 500;
+    constexpr int width = 5000;
+    constexpr int height = 5000;
     constexpr int channels = 3;
     std::vector<unsigned char> data(width*height*channels);
     //uint8_t data[width * height * channels] = { 100 };
